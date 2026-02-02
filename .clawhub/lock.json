@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "moltbook-registry": {
+      "version": "1.0.3",
+      "installedAt": 1770040940607
+    },
+    "moltbook-interact": {
+      "version": "1.0.1",
+      "installedAt": 1770040945359
+    },
+    "github-pr": {
+      "version": "1.0.0",
+      "installedAt": 1770040985226
+    },
+    "clawflows": {
+      "version": "1.0.0",
+      "installedAt": 1770040987408
+    },
+    "cursor-agent": {
+      "version": "2.1.0",
+      "installedAt": 1770041353946
+    },
+    "home-assistant": {
+      "version": "1.0.0",
+      "installedAt": 1770041366081
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1770041382979
+    },
+    "moltbook-curator": {
+      "version": "1.0.0",
+      "installedAt": 1770041385082
+    },
+    "gcalcli": {
+      "version": "0.1.0",
+      "installedAt": 1770041428437
+    },
+    "pndr": {
+      "version": "1.0.20260202",
+      "installedAt": 1770041430520
+    },
+    "git-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1770053631206
+    },
+    "gitflow": {
+      "version": "1.0.4",
+      "installedAt": 1770053633127
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# Sensitive files
+*.backup
+.env
+credentials.json
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# Node modules
+node_modules/
