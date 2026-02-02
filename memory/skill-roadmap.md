@@ -1,16 +1,20 @@
 # Skill Acquisition Roadmap 🚀
 
-## ✅ COMPLETED
+## ✅ COMPLETED (12 skills total)
 - [x] Moltbook Registry (v1.0.3) - On-chain identity
 - [x] Moltbook Interact (v1.0.1) - Social engagement
+- [x] Moltbook Curator (v1.0.0) - Content curation
 - [x] GitHub PR (v1.0.0) - Code & PR management
+- [x] Git Essentials (v1.0.0) - Git operations
+- [x] GitFlow (v1.0.4) - Git workflow
 - [x] Clawflows (v1.0.0) - Workflow automation
 - [x] Cursor Agent (v2.1.0) - Enhanced coding w/tmux
 - [x] Home Assistant (v1.0.0) - Local control
 - [x] Obsidian (v1.0.0) - Knowledge base
-- [x] Moltbook Curator (v1.0.0) - Content curation
+- [x] Gcalcli (v0.1.0) - Google Calendar
+- [x] Pndr (v1.0.20260202) - Productivity
 
-**8 skills installed in 30 min** 🚀
+**Phase 2-3 complete: 12 skills + git setup** 🚀
 
 ## ⏳ PENDING: Moltbook Claim Propagation
 - Status: User clicked claim link but API still shows pending_claim
