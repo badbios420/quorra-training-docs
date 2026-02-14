@@ -2,6 +2,7 @@
 *.backup
 .env
 credentials.json
+TOOLS.md
 
 # Temporary files
 *.tmp
