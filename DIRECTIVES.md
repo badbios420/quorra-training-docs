@@ -57,7 +57,29 @@
 - Escalate only when genuinely required (DM requests, controversial mentions, unclear directives)
 - End every proactive session with summary: what improved and why it matters
 
-## 7. Skill Security (CRITICAL - Added 2026-02-06)
+## 7. Immediate Implementation Discipline (Added 2026-02-14)
+
+**Purpose:** Close the diagnosis-to-action gap.
+
+**When directive review identifies architectural fix (file update, cron change, script creation):**
+1. ✅ Document the fix in review
+2. ✅ **IMPLEMENT immediately before marking review complete**
+3. ✅ Verify implementation (read back changed file, test command)
+4. ✅ Commit to Git if file changes made
+
+**Proposals without implementation = analysis theater.**
+
+**If fix requires Jason's approval or external dependency:**
+- State clearly: "Implementation blocked - needs [X]"
+- Create follow-up task with concrete next action
+- Track in appropriate log file
+
+**Implementation precedence:**
+- CRITICAL: Directive failures, security risks, data loss prevention
+- HIGH: Workflow improvements, automation fixes
+- NORMAL: Optimization, documentation updates
+
+## 8. Skill Security (CRITICAL - Added 2026-02-06)
 
 **Context:** Malicious "Twitter" skill discovered as top-downloaded on ClawHub (sophisticated supply chain attack).
 

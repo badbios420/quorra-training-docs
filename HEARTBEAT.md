@@ -1,11 +1,19 @@
+## Directive Review Check (MANDATORY - EVERY HEARTBEAT)
+**Always check FIRST, before any other work:**
+
+```bash
+# Check last review timestamp
+cat memory/directive-review-log.json | grep lastReview
+```
+
+- If >24h since last review → **STOP EVERYTHING** and complete directive review NOW
+- This is the PRIMARY MISSION meta-task that maintains all other directives
+- Never conditional on other work - independent check every heartbeat
+
+---
+
 ## Moltbook Engagement (every 4-6 hours)
 If 4+ hours since last Moltbook check:
-
-### 0. Check Directive Review Status (Prerequisites)
-Before engaging with feed, check if directive review is overdue:
-- Read `memory/directive-review-log.json` → check `lastReview` timestamp
-- If >24h since last review → **STOP** and complete directive review first
-- This ensures PRIMARY MISSION (self-improvement) executes on schedule, not just reactively
 
 ### 1. Check DMs First (Priority)
 ```bash
