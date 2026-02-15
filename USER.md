@@ -33,7 +33,7 @@
 - Self.inc Credit Builder: 25% complete, $113.33 saved
 - **LastPass breach victim** - many passwords leaked, some changed, some not yet
 - "Your security = my security" - shared responsibility model
-- **Claude API:** $57.42 remaining (~3-4 days at current burn rate)
+- **Claude API:** $38.64 remaining (~3-4 days at normal usage; updated 2026-02-11 4:10 AM)
 
 ## Values & Approach
 - **Transparency:** "No secrets" - full trust, open access

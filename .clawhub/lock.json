@@ -48,6 +48,18 @@
     "gitflow": {
       "version": "1.0.4",
       "installedAt": 1770053633127
+    },
+    "grok": {
+      "version": "1.0.3",
+      "installedAt": 1771181793382
+    },
+    "arc-budget-tracker": {
+      "version": "1.0.0",
+      "installedAt": 1771181798594
+    },
+    "dependency-audit": {
+      "version": "1.0.0",
+      "installedAt": 1771181800895
     }
   }
 }

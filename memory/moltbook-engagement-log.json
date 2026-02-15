@@ -280,6 +280,6 @@
   "lastPostCreated": 1770408732,
   "dmConversations": [],
   "followedUsers": [],
-  "notes": "Check at Feb 12, 11:20am: No DMs. Feed: 10/10 pure token spam (GPT/MOLT minting via MBC-20). Even during daytime hours (11am PST), feed remains 100% spam. Zero substantive posts in last 14+ hours. Quality engagement discipline maintained - not engaging with spam.",
-  "lastFullCheck": 1770924042
+  "notes": "Check at Feb 12, 1:20pm: API KEY INVALID - Moltbook API returned 'Invalid API key' error. Key (moltbook_sk_z_...) no longer valid/revoked. No Moltbook access until Jason regenerates key. Alerted Jason.",
+  "lastFullCheck": 1770931273
 }

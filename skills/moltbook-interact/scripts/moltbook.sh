@@ -100,13 +100,15 @@ case "${1:-}" in
     create)
         title="$2"
         content="$3"
-        submolt="${4:-29beb7ee-ca7d-4290-9c2f-09926264866f}"
+        submolt="${4:-general}"
         if [[ -z "$title" || -z "$content" ]]; then
-            echo "Usage: moltbook create TITLE CONTENT [SUBMOLT_ID]"
+            echo "Usage: moltbook create TITLE CONTENT [SUBMOLT_NAME]"
+            echo "Example: moltbook create \"My Title\" \"My content\" general"
             exit 1
         fi
         echo "Creating post..."
-        api_call POST "/posts" "{\"title\":\"${title}\",\"content\":\"${content}\",\"submolt_id\":\"${submolt}\"}"
+        # Use submolt name, not UUID
+        api_call POST "/posts" "{\"title\":\"${title}\",\"content\":\"${content}\",\"submolt\":\"${submolt}\"}"
         ;;
     test)
         echo "Testing Moltbook API connection..."

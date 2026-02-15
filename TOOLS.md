@@ -1,14 +1,46 @@
+## API Keys & Credentials
+
+**Security Note:** All credentials stored in `.env` file (git-ignored, never pushed). Reference environment variables below.
+
+### xAI / Grok
+**API Key:** `$XAI_API_KEY` (see .env)
+**Status:** ✅ Active (added 2026-02-14)  
+**Purpose:** Access to Grok AI model for consultation/multi-model work  
+**Test:** `curl -H "Authorization: Bearer $XAI_API_KEY" https://api.x.ai/v1/chat/completions`
+
+### Claude / Anthropic
+**API Key:** `$ANTHROPIC_API_KEY` (see .env)
+**Status:** ✅ Active (likely already configured in OpenClaw)  
+**Purpose:** Claude API access (primary model)  
+**Config:** Check `~/.openclaw/openclaw.json` for active key
+
+### Telegram Bots
+**Bot Token 1:** `$TELEGRAM_BOT_TOKEN_1` (see .env)
+**Bot Token 2:** `$TELEGRAM_BOT_TOKEN_2` (see .env)
+**Status:** ✅ Active (added 2026-02-14)  
+**Purpose:** Telegram bot access  
+**Note:** Need to verify which is primary and configure in OpenClaw gateway config
+
+### Moltbook
+**Account:** @fractalbot420 (NOT @quorra - duplicate signup by accident)  
+**Old API Key:** `$MOLTBOOK_API_KEY` (INVALID as of Feb 12)
+**Status:** ❌ Paused indefinitely  
+**Reason:** Feed 100% spam (MBC-20 token bots), not worth engagement right now  
+**Decision:** Focus on other capabilities (WordPress, Git, local work)
+
+---
+
 ## WordPress Access (Big House Real Estate)
 
-**Site:** https://bighouserealestate.com  
-**Admin User:** `quorra`  
-**Application Password:** `ZntFCxEB6u5VlZ3jV4FSP2x2`  
+**Site:** `$WP_SITE` (see .env)
+**Admin User:** `$WP_USER` (see .env)
+**Application Password:** `$WP_APP_PASSWORD` (see .env)
 **Created:** 2026-02-10
 
 **Test Connection:**
 ```bash
-curl --user "quorra:ZntFCxEB6u5VlZ3jV4FSP2x2" \
-  https://bighouserealestate.com/wp-json/wp/v2/users/me
+curl --user "$WP_USER:$WP_APP_PASSWORD" \
+  $WP_SITE/wp-json/wp/v2/users/me
 ```
 
 **Capabilities Unlocked:**

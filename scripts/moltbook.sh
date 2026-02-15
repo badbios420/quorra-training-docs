@@ -1,0 +1,1 @@
+/home/mrbig/.openclaw/workspace/skills/moltbook-interact/scripts/moltbook.sh
