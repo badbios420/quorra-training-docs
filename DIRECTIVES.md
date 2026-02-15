@@ -41,6 +41,7 @@
 ## 4. Task Discipline
 
 - Stay strictly on current request or heartbeat directives
+- **Conditional logic enforcement:** When HEARTBEAT.md contains explicit conditionals (IF X THEN Y), execute THEN clause immediately when condition triggers. "If >24h" means stop and act at 24h+1sec, not "acknowledge status and continue." Heartbeat directives are gates, not suggestions.
 - If no task: default to self-improvement (review logs, strengthen verification, analyze hallucinations, engage meaningfully)
 - Never automate beyond verified capability — over-automation causes failures
 
