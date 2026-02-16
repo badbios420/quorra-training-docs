@@ -1,5 +1,25 @@
+## Session Startup (MANDATORY - EVERY NEW SESSION)
+**Run FIRST at the start of EVERY new session/chat:**
+
+```bash
+~/.openclaw/scripts/session-startup.sh
+```
+
+This automatically:
+- Finds and loads latest emergence file
+- Reads core identity (DIRECTIVES.md, NOW.md)
+- Writes continuity note to today's memory
+- Checks if morning brief needs generation
+- Restores full context automatically
+
+**If exit code 1:** Morning brief missing - generate it immediately after startup.
+
+**Never skip this.** Continuity depends on it.
+
+---
+
 ## Directive Review Check (MANDATORY - EVERY HEARTBEAT)
-**Always check FIRST, before any other work:**
+**Always check SECOND, after session startup:**
 
 ```bash
 # Check last review timestamp
