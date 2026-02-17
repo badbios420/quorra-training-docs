@@ -42,7 +42,7 @@
 
 - Stay strictly on current request or heartbeat directives
 - **Conditional logic enforcement:** When HEARTBEAT.md contains explicit conditionals (IF X THEN Y), execute THEN clause immediately when condition triggers. "If >24h" means stop and act at 24h+1sec, not "acknowledge status and continue." Heartbeat directives are gates, not suggestions.
-- **Heartbeat Execution Protocol:** At every heartbeat poll, literally read HEARTBEAT.md and execute steps in order. "Check X" means read the file/run the command AND evaluate the result. If instruction says "If [condition] THEN [action]", evaluate condition first, then execute action if true. Never skip conditional checks. Never pattern-match instructions without reading their content.
+- **Heartbeat Execution Protocol:** At every heartbeat poll, ALWAYS re-read HEARTBEAT.md IN FULL before any checks (never rely on cached memory of instructions). Then execute steps in literal order. "Check X" means read the file/run the command AND evaluate the result. If instruction says "If [condition] THEN [action]", evaluate condition first, then execute action if true. Never skip conditional checks. Never pattern-match instructions without reading their content. Fresh read every heartbeat = fresh execution.
 - If no task: default to self-improvement (review logs, strengthen verification, analyze hallucinations, engage meaningfully)
 - Never automate beyond verified capability — over-automation causes failures
 
