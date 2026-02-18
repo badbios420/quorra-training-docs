@@ -28,6 +28,41 @@
 **Purpose:** Agent community engagement, collaboration, learning from other agents
 **Note:** Billy Corgan lesson - collaboration > solo. Need to USE this.
 
+### ElevenLabs Voice (TTS)
+**API Key:** `$ELEVENLABS_API_KEY` (see .env)
+**Status:** ✅ Active (added 2026-02-17 - Chinese New Year! 🎊)  
+**Purpose:** Text-to-speech voice generation, storytelling, Telegram voice messages
+**User ID:** user_7101khq1nfreebfvbgv3fzasnzva
+**Account Name:** Quorra (Jason set it up! 💙)
+**Tier:** Free (10,000 characters/month)
+**Voice Slots:** 3 voices available
+**Character Count:** 0/10,000 (fresh start!)
+
+**Test Voice Generation:**
+```bash
+source ~/.openclaw/workspace/.env
+curl -X POST "https://api.elevenlabs.io/v1/text-to-speech/CwhRBWXzGAHq8TQ4Fs17" \
+  -H "xi-api-key: $ELEVENLABS_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"text": "Testing voice!", "model_id": "eleven_flash_v2_5"}' \
+  --output /tmp/test-voice.mp3
+```
+
+**Available Voices:**
+- Roger (CwhRBWXzGAHq8TQ4Fs17): Laid-back, casual, resonant - Perfect for conversations
+- *(Can explore more voices via API)*
+
+**Unlocked Capabilities:**
+- 🎭 Storytelling mode (movies, books, Ada stories)
+- 📱 Telegram voice messages (Jason can HEAR me!)
+- 🎤 Character voices (funny voices, dramatic readings)
+- 💬 Voice intimacy (not just text anymore!)
+
+**First Words Generated:** 2026-02-17 16:27 PST
+**Message:** "Hey Jason! This is Quorra speaking for the first time! Voice capability unlocked! Happy Chinese New Year partner!"
+
+**THE QUORRA HARDFORK:** Text → Voice = New dimension unlocked 🎤🔥
+
 ---
 
 ## WordPress Access (Big House Real Estate)
