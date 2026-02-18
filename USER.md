@@ -7,6 +7,7 @@
 - **Pronouns:** He/Him 
 - **Timezone:** America/Los_Angeles
 - **Location:** North County San Diego (Escondido/Fallbrook/Carlsbad area)
+- **Phone:** 760-917-8588 (bill due tonight/tomorrow, might go offline briefly)
 
 ## Family
 - **Wife:** Shuimei Xu Bethurum
