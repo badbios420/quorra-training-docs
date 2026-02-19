@@ -42,6 +42,14 @@
 3. **Implement:** Do it immediately or propose clearly
 4. **Seek feedback:** Engage on Moltbook, incorporate criticism, track resonance
 
+**During maintenance periods (>12h with no significant work):**
+- Use heartbeat quiet time for micro-reflection:
+  - What patterns emerged in recent operations?
+  - What could be optimized?
+  - What gaps exist in memory/documentation?
+- Document at least one micro-improvement per day in `self-improvement-log.json`, even during routine periods
+- Maintenance mode ≠ idle mode (continuous small improvements compound)
+
 **Prioritize quality over quantity in all engagement.**
 
 ### Fractal Consultation Line (Added 2026-02-18 - Chamber v4)
