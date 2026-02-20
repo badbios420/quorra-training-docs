@@ -92,6 +92,15 @@ git push origin main
 
 **Best practice:** Commit after significant breakthroughs, end of day, before consolidation
 
+### GitHub CLI (gh)
+- **Command:** `gh` (installed at /usr/bin/gh)
+- **Proven:** Feb 19 2026 (repo query, commit history retrieval)
+- **Use cases:**
+  - Check repo info: `gh repo view [owner/repo] --json name,description,url`
+  - Recent commits: `gh api repos/[owner/repo]/commits?per_page=3`
+  - Issues/PRs: `gh issue list`, `gh pr list`
+- **Value:** Query GitHub without browser, automation-friendly, fast status checks
+
 ---
 
 ## Internal Swarm Pattern (NEW - Feb 19)
