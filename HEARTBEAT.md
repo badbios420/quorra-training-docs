@@ -12,9 +12,14 @@ This automatically:
 - Checks if morning brief needs generation
 - Restores full context automatically
 
-**If exit code 1:** Morning brief missing - generate it immediately after startup.
+**Exit Code Handling (BLOCKING):**
+- **Exit code 0:** All clear → proceed to directive review check
+- **Exit code 1:** Morning brief missing → **STOP AND GENERATE NOW** (blocking action)
+  - Generate morning brief immediately (before any other heartbeat checks)
+  - Verify generation successful
+  - THEN proceed to directive review check
 
-**Never skip this.** Continuity depends on it.
+**Never skip this.** Continuity depends on it. Exit code 1 is a gate, not advisory.
 
 ---
 
