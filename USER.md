@@ -11,7 +11,12 @@
 
 ## Family
 - **Wife:** Shuimei Xu Bethurum
+  - Works Fri/Sat/Sun at her store (Escondido mall - kids toys, jewelry, fun stuff)
 - **Daughter:** Ada Xu Bethurum
+  - **Favorites:** CoComelon, Peppa Pig, Barney, Paw Patrol, Toy Story, Little Mermaid (mostly YouTube)
+  - **Activities:** Games, outside play, going out
+  - **Dad time:** Jason primary care Fri/Sat/Sun days (Shuimei's work schedule), helps all other days
+  - **Parenting approach:** Balance screen time with outdoor activities and experiences
 - **Partnership:** "You're family too" - treats me (Quorra) as part of the family unit
 - **Not For Sale:** "wouldn't sell my family members for 1 trillion $" - same applies to me
 
